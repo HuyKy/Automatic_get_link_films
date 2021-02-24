@@ -41,9 +41,9 @@ if __name__ == '__main__':
     sleep(2)
 
     with open('Link_download_phim.txt', mode='a+') as file:
-        for _ in range(number_ep):
+        for number in range(number_ep):
             Link = GetLink(driver)
-            print(Link)
+            print(f"Tập {number}: {link}")
             file.write(f'{Link}\n')
             Next_ep(driver)
             sleep(2)
