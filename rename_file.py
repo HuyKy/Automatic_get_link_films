@@ -97,4 +97,5 @@ if __name__ == '__main__':
 	for lsand in start2:
 		print(lsand,end='',flush=False)
 		sleep(0.01)
-	print("WE DONE")
+	print("\nWE DONE")
+	
